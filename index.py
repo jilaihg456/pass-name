@@ -8,6 +8,7 @@ def print_slow(str):
         sys.stdout.write(char)
         sys.stdout.flush()
 
+
 def clear():
     if os.name == 'nt':
         os.system('cls')
